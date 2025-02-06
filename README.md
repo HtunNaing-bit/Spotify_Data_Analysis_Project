@@ -2,6 +2,7 @@
 Project Category: Advanced
 [Click Here to get Dataset](https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset)
 
+![spotify Logo](https://github.com/HtunNaing-bit/Spotify_Data_Analysis_Project/blob/main/spotify_logo.jpg)
 
 
 ## Overview
