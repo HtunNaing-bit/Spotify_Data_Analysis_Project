@@ -1,4 +1,4 @@
-# Spotify Advanced SQL Project and Query Optimization P-6
+# Spotify SQL Project and 
 Project Category: Advanced
 [Click Here to get Dataset](https://www.kaggle.com/datasets/sanjanchaudhari/spotify-dataset)
 
@@ -66,7 +66,7 @@ In advanced stages, the focus shifts to improving query performance. Some optimi
   
 ---
 
-## 15 Practice Questions
+## 13 Practice Questions
 
 ### Easy Level
 1. Retrieve the names of all tracks that have more than 1 billion streams.
@@ -87,7 +87,7 @@ In advanced stages, the focus shifts to improving query performance. Some optimi
 2. Write a query to find tracks where the liveness score is above the average.
 3. **Use a `WITH` clause to calculate the difference between the highest and lowest energy values for tracks in each album.**
 ```sql
-WITH cte
+WITH CTE
 AS
 (SELECT 
 	album,
@@ -98,14 +98,10 @@ GROUP BY 1
 )
 SELECT 
 	album,
-	highest_energy - lowest_energery as energy_diff
-FROM cte
+	highest_energy - lowest_energery as energy_difference
+FROM CTE
 ORDER BY 2 DESC
 ```
-   
-5. Find tracks where the energy-to-liveness ratio is greater than 1.2.
-6. Calculate the cumulative sum of likes for tracks ordered by the number of views, using window functions.
-
 
 Here’s an updated section for your **Spotify Advanced SQL Project and Query Optimization** README, focusing on the query optimization task you performed. You can include the specific screenshots and graphs as described.
 
@@ -168,10 +164,4 @@ This optimization shows how indexing can drastically reduce query time, improvin
 
 ---
 
-## Contributing
-If you would like to contribute to this project, feel free to fork the repository, submit pull requests, or raise issues.
 
----
-
-## License
-This project is licensed under the MIT License.
